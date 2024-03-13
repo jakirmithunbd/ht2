@@ -1,0 +1,552 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* GLOBAL CSS */
+[data-elementor-type="wp-page"] {
+    overflow: hidden;
+}
+
+.quality-container {
+    max-width: 1468px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.single-salon_directory .custom-footer-template .e-con.e-flex>.e-con-inner {
+    max-width: 1468px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.white {
+    color: #fff;
+}
+
+.single-salon {
+    margin: 0 auto;
+    padding: 250px 0;
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.single-salon::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.single-salon .hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.quality-breadcrumb {
+    padding: 47px 0;
+}
+
+.quality-breadcrumb * {
+    color: #000;
+    font-family: "BlackHawk";
+}
+
+.quality-breadcrumb a {
+    font-size: 18px;
+}
+
+.salon-info .salon-info-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 45px;
+}
+
+.salon-info .salon-info-row .media {
+    width: 32.7%;
+}
+
+.salon-info .salon-info-row .media img {
+    height: 460px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.salon-info .salon-info-row .info-content {
+    width: 64.1%;
+}
+
+.salon-info .salon-info-row .info-content h2,
+.salon-info .salon-info-row .info-content h5 {
+    color: #000;
+    margin: 0 0 12px 0;
+    line-height: 1;
+}
+
+.salon-info .salon-info-row .info-content h2 {
+    font-size: 50px;
+    font-family: "Futura";
+    font-weight: 700;
+}
+
+.salon-info .salon-info-row .info-content h5 {
+    font-size: 18px;
+    font-family: "BlackHawk";
+    font-weight: 400;
+}
+
+.salon-info .salon-info-row .info-content p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+}
+
+.salon-info .salon-info-row .info-content ul.post-categories {
+    display: block;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.salon-info .salon-info-row .info-content ul.post-categories li {
+    display: inline-block;
+}
+
+.salon-info .salon-info-row .info-content ul.post-categories li a {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #000;
+    margin-right: 10px;
+    border-radius: 5px;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.salon-info .salon-info-row .info-content .contact-links a:hover,
+.salon-info .salon-info-row .info-content .contact-links a:focus {
+    opacity: .7;
+}
+
+.salon-info .salon-info-row .info-content .contact-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.salon-info .salon-info-row .info-content .contact-links a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.salon-info .salon-info-row .info-content .contact-links a:hover,
+.salon-info .salon-info-row .info-content .contact-links a:focus {
+    opacity: .7;
+}
+
+.salon-info .salon-info-row .info-content .contact-links a img {
+    margin-right: 10px;
+}
+
+.salon-info .salon-info-row .info-content ul.post-categories.artist-tags li a {
+    font-size: 15px;
+}
+
+.salon-info .gallery-group {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 54px 1fr 54px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 54px;
+    margin: 50px 0;
+}
+
+.salon-info .gallery-group .media {
+    display: block;
+    height: 400px;
+    overflow: hidden;
+}
+
+.salon-info .gallery-group .media img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.salon-cate-wrapper {
+    margin-bottom: 40px;
+}
+
+.salon-cate-wrapper .salon-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.salon-cate-wrapper .salon-type.salon-tags {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.salon-cate-wrapper .salon-type.salon-cats {
+    margin-bottom: 25px;
+}
+
+.salon-cate-wrapper .salon-type h3 {
+    font-family: "BlackHawk", sans-serif;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.salon-cate-wrapper .salon-type span {
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.salon-cate-wrapper .salon-type span.active,
+.salon-cate-wrapper .salon-type span:hover,
+.salon-cate-wrapper .salon-type span:focus {
+    opacity: .7;
+}
+
+.salon-post-load {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    min-height: 250px;
+    position: relative;
+}
+
+.salon-post-load .preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.salon-post-load .blog-box {
+    text-align: center;
+}
+
+.salon-post-load .blog-box a {
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.salon-post-load .blog-box a img {
+    border-radius: 20px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+}
+
+.salon-post-load .blog-box a:hover img,
+.salon-post-load .blog-box a:focus img {
+    -webkit-transform: rotate(5deg) scale(1.2);
+    -ms-transform: rotate(5deg) scale(1.2);
+    transform: rotate(5deg) scale(1.2);
+}
+
+.salon-post-load .blog-box .post-meta {
+    padding: 15px;
+}
+
+.salon-post-load .blog-box .post-titile {
+    color: #000;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: "Futura", Sans-serif !important;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.salon-post-load .blog-box .post-titile:hover,
+.salon-post-load .blog-box .post-titile:focus {
+    opacity: .7;
+}
+
+.salon-post-load .blog-box p {
+    font-family: "BlackHawk", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+#load-salon-posts .blog-box a img {
+    width: 100%;
+    max-width: 440px;
+    height: 280px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.blog-box .post-meta .category {
+    background: black;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    max-width: 140px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.blog-box .post-meta .category:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* BLOG PAGE SEARCH */
+
+.quality-blog-search .search-area {
+    text-align: center;
+}
+
+.quality-blog-search .search-area input {
+    background: #414141;
+    color: #fff;
+    border-radius: 10px;
+    padding: 9px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 720px;
+    text-align: center;
+    margin: 0 auto;
+    border: 0 !important;
+}
+.quality-blog-search .search-area input::-webkit-search-cancel-button {
+    color: #fff !important;
+}
+
+.quality-blog-search .search-area input:focus-within,
+.quality-blog-search .search-area input:focus-visible {
+    outline: none;
+}
+
+.quality-blog-search .search-area input:-ms-input-placeholder {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.quality-blog-search .search-area input::-ms-input-placeholder {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.quality-blog-search .search-area input::placeholder,
+.quality-blog-search .search-area input::-ms-input-placeholder {
+    color: #fff !important;
+    opacity: 1;
+}
+
+#load-searched-posts {
+    margin-top: 100px;
+}
+
+#load-searched-posts .blog-box a img {
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.quality-blog-search .search-area {
+    margin: 30px 0;
+}
+
+.elementor-element-3b0336d {
+    display: none;
+}
+
+@media only screen and (max-width: 1356px) {
+    .single-salon {
+        padding: 150px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .salon-post-load {
+        grid-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .single-salon {
+        padding: 100px;
+    }
+
+    .quality-breadcrumb {
+        padding: 30px 0;
+    }
+
+    .salon-info .gallery-group {
+        grid-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .salon-info .gallery-group {
+        -ms-grid-columns: 1fr 30px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .salon-cate-wrapper .salon-tags {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .rounded {
+        border-radius: 10px;
+    }
+
+    .single-salon {
+        padding: 70px;
+    }
+
+    .quality-breadcrumb {
+        padding: 20px 0;
+    }
+
+    .salon-info .salon-info-row {
+        display: block;
+    }
+
+    .salon-info .salon-info-row .media,
+    .salon-info .salon-info-row .info-content {
+        width: 100%;
+    }
+
+    .salon-info .salon-info-row .media img {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .salon-post-load {
+        -ms-grid-columns: 1fr 30px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #load-searched-posts {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    .single-salon {
+        padding: 50px;
+    }
+
+    .salon-info .gallery-group {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .salon-info .gallery-group .media {
+        height: auto;
+    }
+
+    .salon-cate-wrapper .salon-type h3 {
+        margin: 0 !important;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .salon-cate-wrapper .salon-type span {
+        font-size: 16px;
+    }
+
+    .salon-cate-wrapper .salon-tags {
+        margin-top: 20px;
+    }
+
+    .salon-post-load {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
